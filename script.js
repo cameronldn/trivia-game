@@ -68,6 +68,7 @@ function displayQuestion() {
 }
 
 function reset() {
+  score = 0;
   currentQuestionIndex = 0;
   choicesElement.hidden = false;
   resultsElement.hidden = true;
